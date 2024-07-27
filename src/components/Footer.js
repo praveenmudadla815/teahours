@@ -65,7 +65,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center">
                   <p className="text-base font-normal leading-7 text-center text-grey-700">
-                    © Tea24hours All Rights Reserved
+                    {new Date().getFullYear()}© Tea24hours All Rights Reserved
                   </p>
                 </div>
               </div>
