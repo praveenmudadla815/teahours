@@ -5,9 +5,9 @@ import HomePage from "./pages/HomePage";
 
 const App = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen overflow-hidden">
       <Header />
-      <main className="flex-grow mt-1">
+      <main className="flex-grow">
         <HomePage />
       </main>
       <Footer />

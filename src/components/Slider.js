@@ -13,10 +13,10 @@ const ImageSlider = ({ images }) => {
   };
 
   return (
-    <div className=" relative w-full h-full mt-36 z-[-1]">
+    <div className="w-full h-full mt-20 z-[-1]">
       <Slider {...settings}>
         {images.map((image, index) => (
-          <div key={index} className="relative w-full h-auto ">
+          <div key={index} className="relative w-full h-auto object-cover ">
             <img
               src={image}
               alt={`Slide ${index}`}
